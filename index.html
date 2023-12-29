@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        .box{
+            width: 350px;
+            height: 350px;
+            top:50%;
+            left:50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 20px;
+            }
+            .center
+            {
+                text-align: center;
+                padding: 15px;
+            }
+            .ip
+            {
+                border: none;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-size: 20px;
+                width:80%;
+                height:50px;
+                }
+            .log
+            {
+            border:none;
+            border-radius: 20px;
+            background-color: green;
+            color: aliceblue;
+            width:50%;
+            font-size: 20px;
+            padding: 10px;
+            }
+            .log:hover
+            {
+                background-color: rgb(9, 95, 9);
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="center">
+        <img src="user.png" alt="" height="80px">
+        <br>
+        <br>
+        <input type="text" class="ip" placeholder="Enter Your Name" >
+        <br>
+        <br>
+        <input type="password" class="ip" placeholder="Enter Your Passsword">
+        <br>
+        <br>
+        <input type="submit" value="Login" class="log">
+    </div>
+    
+</div>
+</body>
+</html>
